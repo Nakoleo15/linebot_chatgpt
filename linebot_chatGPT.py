@@ -5,11 +5,11 @@ from linebot.models import (MessageEvent,
                             TextSendMessage)
 
 import openai
-openai.api_key = "xxxL"
+openai.api_key = "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"
 model_use = "text-davinci-003"
 
-channel_secret = "xxx"
-channel_access_token = "xxx"
+channel_secret = "b152fa2d1b46a3add1d3ac735bbbea59"
+channel_access_token = "PnzYLQBbX7K+ixSYSDRMYaILoWzcTKzcKZp+9nUdmunxDYF3fwf1it23T2hqxflP0uo/WIAJoXZhuCgN+O21tE8tRX2//ScK2RHqJc6t4qec/Sn15qmdL36cRoBF0q3VhnxN1veyM+9ngWaRs6eqMgdB04t89/1O/w1cDnyilFU="
 
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
